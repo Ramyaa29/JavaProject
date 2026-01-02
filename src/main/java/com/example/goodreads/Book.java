@@ -21,13 +21,16 @@ public class Book{
     public String getName(){
         return name;
     }
-    public String setName(String name){
+    public void setName(String name)
+    {
         this.name= name;
+
     }
     public String getImageUrl(){
         return imageUrl;
     }
-    public void setImageUrl(String imageUrl){
+    public void setImageUrl(String imageUrl)
+    {
         this.imageUrl=imageUrl;
     }
 }
